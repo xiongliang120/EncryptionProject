@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/aesBaseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试AES Base64加解密"/>
+
+
+        <Button
+            android:id="@+id/aesHexButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试AES Hex加解密"/>
+
+
+        <Button
+            android:id="@+id/rsaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试RSA 非对称加密"/>
+
+
+        <Button
+            android:id="@+id/rsaSectionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试RSA 分段非对称加密"/>
+
+        <Button
+            android:id="@+id/desButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试Des 加解密"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
